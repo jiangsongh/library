@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333
+}
+.head{
+    height: 110px;
+    width: 1100px;
+    margin: 40px auto;
+    position: relative;
+}
+.logo-name {
+    position: absolute;
+    top: 30px;
+    left: 204px;
+    float: left;
+}
+.logo-name p:first-child {
+    margin-bottom: 5px;
+}
+.logo-name p:last-child {
+    font-size: 16px;
+}
+.login-container {
+    width: 1200px;
+    height: 455px;
+    margin: 50px auto;
+}
+.login-container div:first-child {
+    position: relative;
+}
+.login-container div {
+    float: left;
+}
+.login-container>div>span {
+    position: absolute;
+    font-size: 16px;
+    color: #A48F7E;
+    top: 58px;
+    left: 114px;
+}
+.login-container div {
+    float: left;
+}
+.login-main {
+    width: 370px;
+    height: 357px;
+    border: 1px #D7D7D6 solid;
+    padding: 0px 25px;
+}
+.login-main p:first-child {
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+}
+.login-main p {
+    margin-top: 10px;
+}
+.login-main hr {
+    border: 1px solid #000000;
+}
+#loginForm input {
+    margin-bottom: 5px;
+}
+.p-user {
+    display: block;
+    width: 90%;
+    height: 35px;
+    border: 1px solid #cccccc;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+.userName{
+    background: url(../image/loginUser.png) 5px center no-repeat;
+}
+.password {
+    background: url(../image/loginPwd.png) 5px center no-repeat;
+}
+.tips {
+    color: #A94442;
+    margin-bottom: 10px;
+    display: none;
+}
+.loginBtn{
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+.login{
+    float: left;
+    background-color: #2A81F4;
+}
+.back{
+    background-color: #ff2832;
+}

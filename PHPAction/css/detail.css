@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+.div-detail{
+	position: relative;
+	top: 10px;
+	margin-bottom: 20px;
+}
+.div-detail>div:nth-child(1){
+	width: 400px;
+    height: 402px;
+    display: inline-block;
+}
+.div-detail>div:nth-child(1)>div:nth-child(1)>img{
+	width: 80%;
+    height: 80%;
+}
+.div-detail>div:nth-child(1)>div:nth-child(1){
+	border:1px solid #d8d8d8;
+}
+.div-detail>div:nth-child(1)>div:nth-child(2){
+	border: 1px solid #666;
+    width: 85px;
+    height: 81.59px;
+}
+.div-detail>div:nth-child(1)>div:nth-child(2)>img{
+	width: 100%;
+    height: 100%;
+}
+
+.div-detail>div:nth-child(2){
+	width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 120px;
+    position: absolute;
+    top: 0px;
+}
+.btn-add{
+	display: block;
+    width: 300px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 7px;
+    font-size: 17px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #337AB7;
+    border-color: #46b8da;
+}
+.div-detail>div:nth-child(2)>h2{
+	font-weight: bold;
+	font-size: 35px;
+}
+.div-detail>div:nth-child(2)>div>span:first-child{
+	font-size: 18px;
+}
+.div-detail>div:nth-child(2)>div>span:nth-child(2){
+	font-size: 18px;
+    color: #337AB7;
+    font-weight: bolder;
+}
+.detail-div{
+	width: 50%;
+    display: inline-block;
+}
+.detail-div>p:first-child{
+	width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #337AB7;
+    padding-left: 10px;
+}
+.detail-img{
+	width: 400px;
+    display: inline-block;
+}
+.mine-borrows{
+	width: 100%;
+    height: 100px;
+    background-color: #FF1F26;
+    color: #fff;
+    margin-top: 5px;
+    font-size: 30px;
+    line-height: 100px;
+}
+.mine-borrows>span{
+	padding-left: 20px;
+}
+.account{
+	display: inline-block;
+    float: right;
+}
+.account>span{
+	display: block;
+    width: 95px;
+    float: right;
+    text-align: center;
+    background-color: rgba(255,31,38,0.9);
+    font-size: 23px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.borrow-del{
+    line-height: 50px;
+}
+.borrow-del>span{
+    width: 90px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    color: #000;
+}
+.borrow-delete{
+    height: 50px;
+    line-height: 50px;
+}
+.account-left{
+    display: inline-block;
+    float: right;
+}
+.account-left>span:nth-child(2){
+    display: block;
+    width: 95px;
+    float: right;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 21px;
+}
+.account-left>span:nth-child(1){
+    font-size: 20px;
+}

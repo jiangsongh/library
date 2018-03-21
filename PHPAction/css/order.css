@@ -1,0 +1,87 @@
+.order-title{
+	width: 100%;
+    line-height: 40px;
+    border: 1px solid #c6c6c6;
+    font-size: 0px;
+}
+.order-title>span:nth-child(1) {
+    width: 40%;
+}
+.order-title>span:nth-child(2) {
+    width: 20%;
+}
+.order-title>span:nth-child(3) {
+    width: 20%;
+}
+.order-title>span:nth-child(4) {
+    width: 20%;
+}
+.order-title>span{
+	display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.order-item{
+	width: 100%;
+    border: 1px solid #c6c6c6;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.order-num{
+	    width: 100%;
+    border-bottom: 1px solid #c6c6c6;
+    color: #666;
+    line-height: 40px;
+    padding-left: 12px;
+}
+.order-num span:nth-child(1) {
+    display: inline-block;
+    color: #aaa;
+}
+.order-num span:nth-child(2){
+	margin-left: 20px;
+    color: #aaa;
+}
+.order-num span:nth-child(3){
+	font-weight: bold;
+}
+.order-detail{
+    width: 100%;
+    font-size: 0px;
+}
+.order-detail div {
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+.order-detail div:nth-child(1) {
+    width: 40%;
+    text-align: left;
+}
+.order-detail div:nth-child(2) {
+    width: 20%;
+}
+.order-detail div:nth-child(3) {
+    width: 20%;
+}
+.order-detail div:nth-child(4) {
+    width: 20%;
+}
+.order-detail div:nth-child(4)>a{
+    display: block;
+    width: 30%;
+    background-color: #337ab7;
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    border-radius: 7px;
+    margin: auto;
+}
+.order-detail div:nth-child(1) img {
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
